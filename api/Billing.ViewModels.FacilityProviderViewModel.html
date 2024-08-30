@@ -1,0 +1,741 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FacilityProviderViewModel | CumulusRCM </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FacilityProviderViewModel | CumulusRCM ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/new/Documentation/apiSpec/new?filename=Billing_ViewModels_FacilityProviderViewModel.md&amp;value=---%0Auid%3A%20Billing.ViewModels.FacilityProviderViewModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="CumulusRCM">
+            CumulusRCM
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Billing.ViewModels.FacilityProviderViewModel">
+
+
+
+  <h1 id="Billing_ViewModels_FacilityProviderViewModel" data-uid="Billing.ViewModels.FacilityProviderViewModel" class="text-break">
+Class FacilityProviderViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Billing.html">Billing</a>.<a class="xref" href="Billing.ViewModels.html">ViewModels</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Billing.ViewModels.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FacilityProviderViewModel : ViewModelIdBase&lt;ProviderFacility&gt;, IReactiveNotifyPropertyChanged&lt;IReactiveObject&gt;, IHandleObservableErrors, IReactiveObject, INotifyPropertyChanged, INotifyPropertyChanging, IEnableLogger, ITrackModelChanges, ITrackChanges, IEquatable&lt;FacilityProviderViewModel&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ReactiveObject</span></div>
+      <div><a class="xref" href="Billing.ViewModels.ViewModelBase.html">ViewModelBase</a></div>
+      <div><a class="xref" href="Billing.ViewModels.ViewModelBase-1.html">ViewModelBase</a>&lt;<a class="xref" href="Billing.Data.Models.ProviderFacility.html">ProviderFacility</a>&gt;</div>
+      <div><a class="xref" href="Billing.ViewModels.ViewModelIdBase-1.html">ViewModelIdBase</a>&lt;<a class="xref" href="Billing.Data.Models.ProviderFacility.html">ProviderFacility</a>&gt;</div>
+      <div><span class="xref">FacilityProviderViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IReactiveNotifyPropertyChanged</span>&lt;<span class="xref">IReactiveObject</span>&gt;</div>
+      <div><span class="xref">IHandleObservableErrors</span></div>
+      <div><span class="xref">IReactiveObject</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+      <div><span class="xref">IEnableLogger</span></div>
+      <div><a class="xref" href="Billing.ViewModels.Interfaces.ITrackModelChanges.html">ITrackModelChanges</a></div>
+      <div><a class="xref" href="DataAccess.Shared.ITrackChanges.html">ITrackChanges</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Billing.ViewModels.FacilityProviderViewModel.html">FacilityProviderViewModel</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Billing.ViewModels.ViewModelIdBase-1.html#Billing_ViewModels_ViewModelIdBase_1_Id">ViewModelIdBase&lt;ProviderFacility&gt;.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="Billing.ViewModels.ViewModelBase-1.html#Billing_ViewModels_ViewModelBase_1_Model">ViewModelBase&lt;ProviderFacility&gt;.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="Billing.ViewModels.ViewModelBase-1.html#Billing_ViewModels_ViewModelBase_1_CancelChanges">ViewModelBase&lt;ProviderFacility&gt;.CancelChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="Billing.ViewModels.ViewModelBase-1.html#Billing_ViewModels_ViewModelBase_1_ApplyChanges">ViewModelBase&lt;ProviderFacility&gt;.ApplyChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="Billing.ViewModels.ViewModelBase.html#Billing_ViewModels_ViewModelBase_IsNew">ViewModelBase.IsNew</a>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.SuppressChangeNotifications()</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.AreChangeNotificationsEnabled()</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.DelayChangeNotifications()</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.Changing</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.Changed</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.ThrownExceptions</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.PropertyChanging</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.PropertyChanged</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="BaseLib.EnumerableExtensions.html#BaseLib_EnumerableExtensions_ItemAsEnumerable__1___0_">EnumerableExtensions.ItemAsEnumerable&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="BaseLib.EnumerableExtensions.html#BaseLib_EnumerableExtensions_ItemAsReadOnlyCollection__1___0_">EnumerableExtensions.ItemAsReadOnlyCollection&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="BaseLib.TypeHelper.html#BaseLib_TypeHelper_IsNullOrZero__1___0_">TypeHelper.IsNullOrZero&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberName__1___0_System_Linq_Expressions_Expression_System_Action___0___">NameReaderExtensions.GetMemberName&lt;T&gt;(T, Expression&lt;Action&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberName__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object___">NameReaderExtensions.GetMemberName&lt;T&gt;(T, Expression&lt;Func&lt;T, object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberNames__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____">NameReaderExtensions.GetMemberNames&lt;T&gt;(T, params Expression&lt;Func&lt;T, object&gt;&gt;[])</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberType__1___0_System_Linq_Expressions_Expression_System_Action___0___">NameReaderExtensions.GetMemberType&lt;T&gt;(T, Expression&lt;Action&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberType__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object___">NameReaderExtensions.GetMemberType&lt;T&gt;(T, Expression&lt;Func&lt;T, object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberTypes__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____">NameReaderExtensions.GetMemberTypes&lt;T&gt;(T, params Expression&lt;Func&lt;T, object&gt;&gt;[])</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.ResponseExtensions.html#DataAccess_Shared_ResponseExtensions_AsResponse__1___0_">ResponseExtensions.AsResponse&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel__ctor_" data-uid="Billing.ViewModels.FacilityProviderViewModel.#ctor*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel__ctor_Billing_Data_Models_ProviderFacility_" data-uid="Billing.ViewModels.FacilityProviderViewModel.#ctor(Billing.Data.Models.ProviderFacility)">
+  FacilityProviderViewModel(ProviderFacility)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FacilityProviderViewModel(ProviderFacility providerFacility)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>providerFacility</code> <a class="xref" href="Billing.Data.Models.ProviderFacility.html">ProviderFacility</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_Facility_" data-uid="Billing.ViewModels.FacilityProviderViewModel.Facility*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_Facility" data-uid="Billing.ViewModels.FacilityProviderViewModel.Facility">
+  Facility
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Reactive]
+public Facility? Facility { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.Data.Models.Facility.html">Facility</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_Facility_Id_" data-uid="Billing.ViewModels.FacilityProviderViewModel.Facility_Id*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_Facility_Id" data-uid="Billing.ViewModels.FacilityProviderViewModel.Facility_Id">
+  Facility_Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ObservableAsProperty]
+public long Facility_Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_Provider_" data-uid="Billing.ViewModels.FacilityProviderViewModel.Provider*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_Provider" data-uid="Billing.ViewModels.FacilityProviderViewModel.Provider">
+  Provider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Reactive]
+public Provider? Provider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.Data.Models.Provider.html">Provider</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_ProviderFacility_" data-uid="Billing.ViewModels.FacilityProviderViewModel.ProviderFacility*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_ProviderFacility" data-uid="Billing.ViewModels.FacilityProviderViewModel.ProviderFacility">
+  ProviderFacility
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProviderFacility ProviderFacility { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.Data.Models.ProviderFacility.html">ProviderFacility</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_Provider_Id_" data-uid="Billing.ViewModels.FacilityProviderViewModel.Provider_Id*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_Provider_Id" data-uid="Billing.ViewModels.FacilityProviderViewModel.Provider_Id">
+  Provider_Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ObservableAsProperty]
+public long Provider_Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_ApplyChangesToModel_" data-uid="Billing.ViewModels.FacilityProviderViewModel.ApplyChangesToModel*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_ApplyChangesToModel" data-uid="Billing.ViewModels.FacilityProviderViewModel.ApplyChangesToModel">
+  ApplyChangesToModel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ApplyChangesToModel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_CreateNew_" data-uid="Billing.ViewModels.FacilityProviderViewModel.CreateNew*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_CreateNew_Billing_Data_Models_Provider_Billing_Data_Models_Facility_" data-uid="Billing.ViewModels.FacilityProviderViewModel.CreateNew(Billing.Data.Models.Provider,Billing.Data.Models.Facility)">
+  CreateNew(Provider?, Facility?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FacilityProviderViewModel CreateNew(Provider? provider = null, Facility? facility = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>provider</code> <a class="xref" href="Billing.Data.Models.Provider.html">Provider</a></dt>
+    <dd></dd>
+    <dt><code>facility</code> <a class="xref" href="Billing.Data.Models.Facility.html">Facility</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.ViewModels.FacilityProviderViewModel.html">FacilityProviderViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_Equals_" data-uid="Billing.ViewModels.FacilityProviderViewModel.Equals*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_Equals_Billing_ViewModels_FacilityProviderViewModel_" data-uid="Billing.ViewModels.FacilityProviderViewModel.Equals(Billing.ViewModels.FacilityProviderViewModel)">
+  Equals(FacilityProviderViewModel?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(FacilityProviderViewModel? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Billing.ViewModels.FacilityProviderViewModel.html">FacilityProviderViewModel</a></dt>
+    <dd><p>An object to compare with this object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_Equals_" data-uid="Billing.ViewModels.FacilityProviderViewModel.Equals*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_Equals_System_Object_" data-uid="Billing.ViewModels.FacilityProviderViewModel.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_GetHashCode_" data-uid="Billing.ViewModels.FacilityProviderViewModel.GetHashCode*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_GetHashCode" data-uid="Billing.ViewModels.FacilityProviderViewModel.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_LoadFromModel_" data-uid="Billing.ViewModels.FacilityProviderViewModel.LoadFromModel*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_LoadFromModel" data-uid="Billing.ViewModels.FacilityProviderViewModel.LoadFromModel">
+  LoadFromModel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void LoadFromModel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_op_Equality_" data-uid="Billing.ViewModels.FacilityProviderViewModel.op_Equality*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_op_Equality_Billing_ViewModels_FacilityProviderViewModel_Billing_ViewModels_FacilityProviderViewModel_" data-uid="Billing.ViewModels.FacilityProviderViewModel.op_Equality(Billing.ViewModels.FacilityProviderViewModel,Billing.ViewModels.FacilityProviderViewModel)">
+  operator ==(FacilityProviderViewModel?, FacilityProviderViewModel?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(FacilityProviderViewModel? left, FacilityProviderViewModel? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Billing.ViewModels.FacilityProviderViewModel.html">FacilityProviderViewModel</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Billing.ViewModels.FacilityProviderViewModel.html">FacilityProviderViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_FacilityProviderViewModel_op_Inequality_" data-uid="Billing.ViewModels.FacilityProviderViewModel.op_Inequality*"></a>
+
+  <h3 id="Billing_ViewModels_FacilityProviderViewModel_op_Inequality_Billing_ViewModels_FacilityProviderViewModel_Billing_ViewModels_FacilityProviderViewModel_" data-uid="Billing.ViewModels.FacilityProviderViewModel.op_Inequality(Billing.ViewModels.FacilityProviderViewModel,Billing.ViewModels.FacilityProviderViewModel)">
+  operator !=(FacilityProviderViewModel?, FacilityProviderViewModel?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(FacilityProviderViewModel? left, FacilityProviderViewModel? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Billing.ViewModels.FacilityProviderViewModel.html">FacilityProviderViewModel</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Billing.ViewModels.FacilityProviderViewModel.html">FacilityProviderViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/Facility/FacilityProviderViewModel.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

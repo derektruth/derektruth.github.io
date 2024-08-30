@@ -1,0 +1,1213 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CollectionViewModelBase&lt;T, TKey&gt; | CumulusRCM </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CollectionViewModelBase&lt;T, TKey&gt; | CumulusRCM ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/new/Documentation/apiSpec/new?filename=Billing_ViewModels_CollectionViewModelBase_2.md&amp;value=---%0Auid%3A%20Billing.ViewModels.CollectionViewModelBase%602%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="CumulusRCM">
+            CumulusRCM
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Billing.ViewModels.CollectionViewModelBase`2">
+
+
+
+  <h1 id="Billing_ViewModels_CollectionViewModelBase_2" data-uid="Billing.ViewModels.CollectionViewModelBase`2" class="text-break">
+Class CollectionViewModelBase&lt;T, TKey&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Billing.html">Billing</a>.<a class="xref" href="Billing.ViewModels.html">ViewModels</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Billing.ViewModels.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CollectionViewModelBase&lt;T, TKey&gt; : ReactiveObject, IReactiveNotifyPropertyChanged&lt;IReactiveObject&gt;, IHandleObservableErrors, IReactiveObject, INotifyPropertyChanged, INotifyPropertyChanging, IEnableLogger, ICollectionViewModel&lt;T&gt;, IActivatableViewModel where T : class where TKey : notnull</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+    <dt><code>TKey</code></dt>
+    <dd></dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ReactiveObject</span></div>
+      <div><span class="xref">CollectionViewModelBase&lt;T, TKey&gt;</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IReactiveNotifyPropertyChanged</span>&lt;<span class="xref">IReactiveObject</span>&gt;</div>
+      <div><span class="xref">IHandleObservableErrors</span></div>
+      <div><span class="xref">IReactiveObject</span></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+      <div><span class="xref">IEnableLogger</span></div>
+      <div><a class="xref" href="Billing.ViewModels.Interfaces.ICollectionViewModel-1.html">ICollectionViewModel</a>&lt;T&gt;</div>
+      <div><span class="xref">IActivatableViewModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Billing.ViewModels.ClearinghousesViewModel.html">ClearinghousesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.CodeSearchViewModel-1.html">CodeSearchViewModel&lt;T&gt;</a></div>
+      <div><a class="xref" href="Billing.ViewModels.CptCodesViewModel.html">CptCodesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.DiagnosesViewModel.html">DiagnosesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.FacilitiesViewModel.html">FacilitiesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.FacilityProvidersViewModel.html">FacilityProvidersViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.InsuranceCompaniesViewModel.html">InsuranceCompaniesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.PatientAddressesViewModel.html">PatientAddressesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.PatientPhonesViewModel.html">PatientPhonesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.PatientPoliciesViewModel.html">PatientPoliciesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.PatientsViewModel.html">PatientsViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.PracticeAddressesViewModel.html">PracticeAddressesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.PracticePhonesViewModel.html">PracticePhonesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.PracticesViewModel.html">PracticesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.ProviderBillableServicesViewModel.html">ProviderBillableServicesViewModel</a></div>
+      <div><a class="xref" href="Billing.ViewModels.ProvidersViewModel.html">ProvidersViewModel</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">ReactiveObject.SuppressChangeNotifications()</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.AreChangeNotificationsEnabled()</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.DelayChangeNotifications()</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.Changing</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.Changed</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.ThrownExceptions</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.PropertyChanging</span>
+    </div>
+    <div>
+      <span class="xref">ReactiveObject.PropertyChanged</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="BaseLib.EnumerableExtensions.html#BaseLib_EnumerableExtensions_ItemAsEnumerable__1___0_">EnumerableExtensions.ItemAsEnumerable&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="BaseLib.EnumerableExtensions.html#BaseLib_EnumerableExtensions_ItemAsReadOnlyCollection__1___0_">EnumerableExtensions.ItemAsReadOnlyCollection&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="BaseLib.TypeHelper.html#BaseLib_TypeHelper_IsNullOrZero__1___0_">TypeHelper.IsNullOrZero&lt;T&gt;(T?)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberName__1___0_System_Linq_Expressions_Expression_System_Action___0___">NameReaderExtensions.GetMemberName&lt;T&gt;(T, Expression&lt;Action&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberName__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object___">NameReaderExtensions.GetMemberName&lt;T&gt;(T, Expression&lt;Func&lt;T, object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberNames__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____">NameReaderExtensions.GetMemberNames&lt;T&gt;(T, params Expression&lt;Func&lt;T, object&gt;&gt;[])</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberType__1___0_System_Linq_Expressions_Expression_System_Action___0___">NameReaderExtensions.GetMemberType&lt;T&gt;(T, Expression&lt;Action&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberType__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object___">NameReaderExtensions.GetMemberType&lt;T&gt;(T, Expression&lt;Func&lt;T, object&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.NameReaderExtensions.html#DataAccess_Shared_NameReaderExtensions_GetMemberTypes__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object_____">NameReaderExtensions.GetMemberTypes&lt;T&gt;(T, params Expression&lt;Func&lt;T, object&gt;&gt;[])</a>
+  </div>
+  <div>
+      <a class="xref" href="DataAccess.Shared.ResponseExtensions.html#DataAccess_Shared_ResponseExtensions_AsResponse__1___0_">ResponseExtensions.AsResponse&lt;T&gt;(T)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2__ctor_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.#ctor*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2__ctor_System_Func__0__1__Billing_Data_Interfaces_IBillingDataService_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.#ctor(System.Func{`0,`1},Billing.Data.Interfaces.IBillingDataService)">
+  CollectionViewModelBase(Func&lt;T, TKey&gt;, IBillingDataService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CollectionViewModelBase(Func&lt;T, TKey&gt; keySelector, IBillingDataService dataService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TKey&gt;</dt>
+    <dd></dd>
+    <dt><code>dataService</code> <a class="xref" href="Billing.Data.Interfaces.IBillingDataService.html">IBillingDataService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_dataService" data-uid="Billing.ViewModels.CollectionViewModelBase`2.dataService">
+  dataService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IBillingDataService dataService</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.Data.Interfaces.IBillingDataService.html">IBillingDataService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_loadData" data-uid="Billing.ViewModels.CollectionViewModelBase`2.loadData">
+  loadData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IObservable&lt;Response&lt;T&gt;&gt; loadData</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="DataAccess.Shared.Response-1.html">Response</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_reactiveFilter" data-uid="Billing.ViewModels.CollectionViewModelBase`2.reactiveFilter">
+  reactiveFilter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ReactiveFilter reactiveFilter</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.ViewModels.ReactiveFilter.html">ReactiveFilter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_searchResultsCache" data-uid="Billing.ViewModels.CollectionViewModelBase`2.searchResultsCache">
+  searchResultsCache
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly SourceCache&lt;T, TKey&gt; searchResultsCache</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SourceCache</span>&lt;T, TKey&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_Activator_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.Activator*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_Activator" data-uid="Billing.ViewModels.CollectionViewModelBase`2.Activator">
+  Activator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the Activator which will be used by the View when Activation/Deactivation occurs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ViewModelActivator Activator { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ViewModelActivator</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_CurrentPage_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.CurrentPage*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_CurrentPage" data-uid="Billing.ViewModels.CollectionViewModelBase`2.CurrentPage">
+  CurrentPage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Reactive]
+public int CurrentPage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_Edit_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.Edit*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_Edit" data-uid="Billing.ViewModels.CollectionViewModelBase`2.Edit">
+  Edit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReactiveCommand&lt;T, bool&gt; Edit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ReactiveCommand</span>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_EditInteraction_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.EditInteraction*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_EditInteraction" data-uid="Billing.ViewModels.CollectionViewModelBase`2.EditInteraction">
+  EditInteraction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Interaction&lt;T, bool&gt; EditInteraction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Interaction</span>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_IsItemSelected_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.IsItemSelected*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_IsItemSelected" data-uid="Billing.ViewModels.CollectionViewModelBase`2.IsItemSelected">
+  IsItemSelected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ObservableAsProperty]
+public bool IsItemSelected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_IsPagingRequired_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.IsPagingRequired*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_IsPagingRequired" data-uid="Billing.ViewModels.CollectionViewModelBase`2.IsPagingRequired">
+  IsPagingRequired
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ObservableAsProperty]
+public bool IsPagingRequired { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_ItemIsSelected_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ItemIsSelected*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_ItemIsSelected" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ItemIsSelected">
+  ItemIsSelected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;bool&gt; ItemIsSelected { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_ItemsCount_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ItemsCount*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_ItemsCount" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ItemsCount">
+  ItemsCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Reactive]
+public int ItemsCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_ItemsLoaded_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ItemsLoaded*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_ItemsLoaded" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ItemsLoaded">
+  ItemsLoaded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;Unit&gt; ItemsLoaded { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<span class="xref">Unit</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_PageCount_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.PageCount*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_PageCount" data-uid="Billing.ViewModels.CollectionViewModelBase`2.PageCount">
+  PageCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ObservableAsProperty]
+public int PageCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_PageSize_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.PageSize*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_PageSize" data-uid="Billing.ViewModels.CollectionViewModelBase`2.PageSize">
+  PageSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PageSize { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_SearchResults_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.SearchResults*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_SearchResults" data-uid="Billing.ViewModels.CollectionViewModelBase`2.SearchResults">
+  SearchResults
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyObservableCollection&lt;T&gt; SearchResults { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlyobservablecollection-1">ReadOnlyObservableCollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_SelectedItem_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.SelectedItem*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_SelectedItem" data-uid="Billing.ViewModels.CollectionViewModelBase`2.SelectedItem">
+  SelectedItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Reactive]
+public T? SelectedItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_ViewModelDataReader_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ViewModelDataReader*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_ViewModelDataReader" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ViewModelDataReader">
+  ViewModelDataReader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IViewModelDataReader&lt;T&gt; ViewModelDataReader { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.ViewModels.Interfaces.IViewModelDataReader-1.html">IViewModelDataReader</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_ViewModelDataWriter_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ViewModelDataWriter*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_ViewModelDataWriter" data-uid="Billing.ViewModels.CollectionViewModelBase`2.ViewModelDataWriter">
+  ViewModelDataWriter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IViewModelDataWriter&lt;T&gt;? ViewModelDataWriter { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.ViewModels.Interfaces.IViewModelDataWriter-1.html">IViewModelDataWriter</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_AddFilterExpressions_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.AddFilterExpressions*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_AddFilterExpressions_DataAccess_Shared_FilterExpression_System_Boolean_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.AddFilterExpressions(DataAccess.Shared.FilterExpression,System.Boolean)">
+  AddFilterExpressions(FilterExpression, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddFilterExpressions(FilterExpression filterExpression, bool isUseNewSegment = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filterExpression</code> <a class="xref" href="DataAccess.Shared.FilterExpression.html">FilterExpression</a></dt>
+    <dd></dd>
+    <dt><code>isUseNewSegment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_AddFilterExpressions_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.AddFilterExpressions*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_AddFilterExpressions_System_Collections_Generic_IEnumerable_DataAccess_Shared_ConnectedExpression__System_Boolean_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.AddFilterExpressions(System.Collections.Generic.IEnumerable{DataAccess.Shared.ConnectedExpression},System.Boolean)">
+  AddFilterExpressions(IEnumerable&lt;ConnectedExpression&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddFilterExpressions(IEnumerable&lt;ConnectedExpression&gt; connectedExpressions, bool isUseNewSegment = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>connectedExpressions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="DataAccess.Shared.ConnectedExpression.html">ConnectedExpression</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>isUseNewSegment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_AddNewItem_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.AddNewItem*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_AddNewItem" data-uid="Billing.ViewModels.CollectionViewModelBase`2.AddNewItem">
+  AddNewItem()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual T AddNewItem()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_AddReactiveFilterExpressions_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.AddReactiveFilterExpressions*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_AddReactiveFilterExpressions_System_Collections_Generic_IEnumerable_Billing_ViewModels_ReactiveFilterExpression__System_Boolean_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.AddReactiveFilterExpressions(System.Collections.Generic.IEnumerable{Billing.ViewModels.ReactiveFilterExpression},System.Boolean)">
+  AddReactiveFilterExpressions(IEnumerable&lt;ReactiveFilterExpression&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddReactiveFilterExpressions(IEnumerable&lt;ReactiveFilterExpression&gt; reactiveFilterExpressions, bool isUseNewSegment = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reactiveFilterExpressions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Billing.ViewModels.ReactiveFilterExpression.html">ReactiveFilterExpression</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>isUseNewSegment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_LoadItems_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.LoadItems*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_LoadItems" data-uid="Billing.ViewModels.CollectionViewModelBase`2.LoadItems">
+  LoadItems()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadItems()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_LoadResultCache_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.LoadResultCache*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_LoadResultCache_DataAccess_Shared_Response__0__System_Boolean_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.LoadResultCache(DataAccess.Shared.Response{`0},System.Boolean)">
+  LoadResultCache(Response&lt;T&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void LoadResultCache(Response&lt;T&gt; response, bool isResetPageCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>response</code> <a class="xref" href="DataAccess.Shared.Response-1.html">Response</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>isResetPageCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_SelectItem_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.SelectItem*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_SelectItem__0_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.SelectItem(`0)">
+  SelectItem(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectItem(T item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_UpdateItemAsync_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.UpdateItemAsync*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_UpdateItemAsync__0_System_Boolean_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.UpdateItemAsync(`0,System.Boolean)">
+  UpdateItemAsync(T, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task&lt;SaveResponse&gt; UpdateItemAsync(T item, bool isNew)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>isNew</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="DataAccess.Shared.SaveResponse.html">SaveResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_ViewModels_CollectionViewModelBase_2_getItemsAsync_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.getItemsAsync*"></a>
+
+  <h3 id="Billing_ViewModels_CollectionViewModelBase_2_getItemsAsync_System_Int32_DataAccess_Shared_Filter_" data-uid="Billing.ViewModels.CollectionViewModelBase`2.getItemsAsync(System.Int32,DataAccess.Shared.Filter)">
+  getItemsAsync(int, Filter?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task&lt;Response&lt;T&gt;&gt; getItemsAsync(int pageNumber = 0, Filter? filter = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>filter</code> <a class="xref" href="DataAccess.Shared.Filter.html">Filter</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="DataAccess.Shared.Response-1.html">Response</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/ClientServer.Common/Billing.ViewModels/ViewModels/CollectionViewModelBase.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
