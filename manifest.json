@@ -1,0 +1,3728 @@
+{
+  "source_base_path": "C:/Users/Pichau/source/repos/HipaaServices/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.ConfigSectionBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.ConfigSectionBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.DateTimeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.DbConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.DbConnectionManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.Enumeration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.Enumeration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.EnumerationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.EnumerationInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.EnumerationJsonConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.EnumerationJsonConverter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.FormatHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.FormatHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.Hash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.Hash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.IDbConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.IDbConnectionManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.TypeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.TypeHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BaseLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BaseLib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.BillableServiceEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.BillableServiceEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.BillableServicesByProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.BillableServicesByProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.BillableServicesEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.BillableServicesEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.BillableServicesPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.BillableServicesPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.ClearinghouseEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.ClearinghouseEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Clearinghouses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Clearinghouses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.ClearinghousesPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.ClearinghousesPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.CollectionViewBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.CollectionViewBase-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Components.ChooserViewBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Components.ChooserViewBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Components.Popup_Dialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Components.Popup_Dialog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Components._Imports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Components._Imports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.CptChooser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.CptChooser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.CptCodeEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.CptCodeEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.CptCodeSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.CptCodeSearch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.CptCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.CptCodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.CptCodesPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.CptCodesPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Diagnoses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Diagnoses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.DiagnosesChooser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.DiagnosesChooser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.DiagnosesPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.DiagnosesPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.DiagnosisEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.DiagnosisEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.DiagnosisSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.DiagnosisSearch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Facilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Facilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.FacilitiesPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.FacilitiesPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.FacilityEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.FacilityEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.FacilityProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.FacilityProviders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.FilterExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.FilterExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.InjectableCollectionViewBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.InjectableCollectionViewBase-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.InsuranceCompanies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.InsuranceCompanies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.InsuranceCompanyEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.InsuranceCompanyEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.InsurancePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.InsurancePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.LoginDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.LoginDisplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.MainLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.MainLayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.NavMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.NavMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Pages.Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Pages.Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Pages.ShowProfilePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Pages.ShowProfilePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Pages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientAddressEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientAddressEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientAddresses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientAddresses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientPhoneEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientPhoneEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientPhones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientPhones.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientPolicies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientPolicies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientPolicyEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientPolicyEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientSearch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Patients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Patients.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PatientsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PatientsPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PopupHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PopupHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PracticeAddressEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PracticeAddressEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PracticeAddresses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PracticeAddresses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PracticeEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PracticeEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PracticePhoneEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PracticePhoneEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PracticePhones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PracticePhones.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Practices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Practices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.PracticesPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.PracticesPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.ProviderEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.ProviderEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Providers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Providers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.ProvidersPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.ProvidersPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.ReportParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.ReportParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.ReportViewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.ReportViewer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.Reports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.Reports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.ReportsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.ReportsPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.SearchOperatorChooser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.SearchOperatorChooser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.SearchPropertyChooser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.SearchPropertyChooser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.ServiceLocationChooser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.ServiceLocationChooser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorComponents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorComponents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorServer.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorServer.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorServer.MockAuthenticationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorServer.MockAuthenticationHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorServer.MockAuthenticationUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorServer.MockAuthenticationUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorServer.Pages.ErrorModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorServer.Pages.ErrorModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorServer.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorServer.Pages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorServer.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorServer.Program.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorServer._Imports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorServer._Imports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.BlazorServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.BlazorServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Enums.AddressKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Enums.AddressKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Enums.BillableServiceStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Enums.BillableServiceStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Enums.Gender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Enums.Gender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Enums.PhoneKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Enums.PhoneKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Enums.ProcessStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Enums.ProcessStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Enums.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Enums.State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Enums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.Address.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.Api.IBillableServiceQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.Api.IBillableServiceQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.Api.IFacilityQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.Api.IFacilityQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.Api.IPatientQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.Api.IPatientQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.Api.IProviderQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.Api.IProviderQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.Api.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.IAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.IAddress.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.IBillingDataService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.IBillingDataService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.IIdPk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.IIdPk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.IPerson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.IPerson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.IPlaceOfService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.IPlaceOfService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.IUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.IUserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.NameOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.NameOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Adjudication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Adjudication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.AppUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.AppUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.BillableService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.BillableService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.BillableServiceWithLookups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.BillableServiceWithLookups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ChargeClaim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ChargeClaim.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ChargeClaimPlanItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ChargeClaimPlanItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ChargeClaimPlanItemStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ChargeClaimPlanItemStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ChargeClaimSubmission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ChargeClaimSubmission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ChargeClaimSubmissionServiceLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ChargeClaimSubmissionServiceLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ChargeTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ChargeTransaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ClaimDiagnosis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ClaimDiagnosis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ClaimPaymentView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ClaimPaymentView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Clearinghouse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Clearinghouse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.CptCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.CptCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Diagnosis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Diagnosis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.EligibilityResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.EligibilityResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Facility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Facility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.InsuranceCompany.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.InsuranceCompany.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Patient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Patient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PatientAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PatientAddress.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PatientPhone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PatientPhone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Payer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Payer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PayerIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PayerIdentifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Payment835Edi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Payment835Edi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PaymentClaim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PaymentClaim.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PaymentClaimAdjustment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PaymentClaimAdjustment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PaymentClaimLineItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PaymentClaimLineItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PaymentClaimLineItemAdjustment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PaymentClaimLineItemAdjustment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PaymentClaimQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PaymentClaimQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PaymentClaimQueueError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PaymentClaimQueueError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PaymentTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PaymentTransaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Policy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Policy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Practice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Practice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PracticeAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PracticeAddress.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PracticePatient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PracticePatient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PracticePhone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PracticePhone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PracticeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PracticeProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.PreAuthorization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.PreAuthorization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.Provider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ProviderFacility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ProviderFacility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ProviderWithFacilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ProviderWithFacilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ServiceDiagnosis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ServiceDiagnosis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.ServiceLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.ServiceLocation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.SubmittedDiagnoses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.SubmittedDiagnoses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Data.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Data.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.BillableServiceQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.BillableServiceQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.BillableServiceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.BillableServiceReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.BillingDataReaderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.BillingDataReaderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.BillingDataService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.BillingDataService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.BillingDbMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.BillingDbMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.FacilityQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.FacilityQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.FacilityReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.FacilityReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.IBillableServiceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.IBillableServiceReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.IFacilityReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.IFacilityReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.IPatientReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.IPatientReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.IProviderReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.IProviderReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.PatientQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.PatientQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.PatientReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.PatientReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.ProviderQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.ProviderQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.ProviderReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.ProviderReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataAccess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataClient.BillingClientDataService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataClient.BillingClientDataService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataClient.ClientSaveStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataClient.ClientSaveStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.DataClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.DataClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.EndPoints.BillingEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.EndPoints.BillingEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.EndPoints.EndpointMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.EndPoints.EndpointMapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.EndPoints.MockDatabaseMigrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.EndPoints.MockDatabaseMigrator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.EndPoints.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.EndPoints.Program.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.EndPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.EndPoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Fake.DataAccess.FakeBillableServiceReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Fake.DataAccess.FakeBillableServiceReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Fake.DataAccess.FakeBillingDataFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Fake.DataAccess.FakeBillingDataFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Fake.DataAccess.FakeBillingReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Fake.DataAccess.FakeBillingReader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Fake.DataAccess.FakeBillingReaderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Fake.DataAccess.FakeBillingReaderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Fake.DataAccess.FakeFacilityReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Fake.DataAccess.FakeFacilityReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Fake.DataAccess.FakePatientReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Fake.DataAccess.FakePatientReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Fake.DataAccess.FakeProviderReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Fake.DataAccess.FakeProviderReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.Fake.DataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.Fake.DataAccess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.BillableServiceDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.BillableServiceDataReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.BillableServiceViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.BillableServiceViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ChooserViewModel-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ChooserViewModel-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ClearinghouseViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ClearinghouseViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ClearinghousesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ClearinghousesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.CodeSearchViewModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.CodeSearchViewModel-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.CollectionViewModelBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.CollectionViewModelBase-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Controls.MultiSelectCache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Controls.MultiSelectCache-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Controls.NavigationMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Controls.NavigationMenuItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Controls.SelectableItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Controls.SelectableItem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Controls.SelectedCache-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Controls.SelectedCache-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Controls.SelectedList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Controls.SelectedList-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Controls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.CptCodeChooserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.CptCodeChooserViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.CptCodeSearchViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.CptCodeSearchViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.CptCodeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.CptCodeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.CptCodesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.CptCodesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.DiagnosesChooserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.DiagnosesChooserViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.DiagnosesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.DiagnosesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.DiagnosisSearchViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.DiagnosisSearchViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.DiagnosisViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.DiagnosisViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.DynamicFilterExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.DynamicFilterExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.FacilitiesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.FacilitiesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.FacilityProviderViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.FacilityProviderViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.FacilityProvidersViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.FacilityProvidersViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.FacilityProvidersViewModelDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.FacilityProvidersViewModelDataReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.FacilityProvidersViewModelDataWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.FacilityProvidersViewModelDataWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.FacilityViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.FacilityViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Helpers.CollectionHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Helpers.CollectionHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Helpers.CptCodeHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Helpers.CptCodeHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Helpers.PatientHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Helpers.PatientHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Helpers.ProviderHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Helpers.ProviderHelpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.InsuranceCompaniesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.InsuranceCompaniesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.InsuranceCompanyViewModel.InsuranceValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.InsuranceCompanyViewModel.InsuranceValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.InsuranceCompanyViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.InsuranceCompanyViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Interfaces.ICollectionViewModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Interfaces.ICollectionViewModel-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Interfaces.ITrackModelChanges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Interfaces.ITrackModelChanges.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Interfaces.IViewModelDataReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Interfaces.IViewModelDataReader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Interfaces.IViewModelDataWriter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Interfaces.IViewModelDataWriter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientAddressViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientAddressViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientAddressesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientAddressesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientBillableServicesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientBillableServicesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientPhoneViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientPhoneViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientPhonesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientPhonesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientPoliciesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientPoliciesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientSearchViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientSearchViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientViewModel.PatientValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientViewModel.PatientValidator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PatientsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PatientsViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PolicyViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PolicyViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PracticeAddressViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PracticeAddressViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PracticeAddressesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PracticeAddressesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PracticePhoneViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PracticePhoneViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PracticePhonesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PracticePhonesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PracticeViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PracticeViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.PracticesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.PracticesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ProviderBillableServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ProviderBillableServices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ProviderBillableServicesViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ProviderBillableServicesViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ProviderViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ProviderViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ProvidersViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ProvidersViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ReactiveFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ReactiveFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ReactiveFilterExpression-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ReactiveFilterExpression-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ReactiveFilterExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ReactiveFilterExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ReadOnlyViewModelDataWriter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ReadOnlyViewModelDataWriter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Reports.ReportParameterViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Reports.ReportParameterViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Reports.ReportViewerViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Reports.ReportViewerViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Reports.ReportsViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Reports.ReportsViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.Reports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.Reports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.SearchOperatorSelectorViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.SearchOperatorSelectorViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.SearchPropertyChooserViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.SearchPropertyChooserViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.SearchViewModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.SearchViewModel-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.SelectableProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.SelectableProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ValidatorBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ValidatorBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ViewModelBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ViewModelBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ViewModelBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ViewModelDataReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ViewModelDataReader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ViewModelDataReader-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ViewModelDataReader-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ViewModelDataWriter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ViewModelDataWriter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ViewModelDataWriter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ViewModelDataWriter-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.ViewModelIdBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.ViewModelIdBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Billing.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Billing.ViewModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BillingServerConsole.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BillingServerConsole.Startup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BillingServerConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BillingServerConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.ColumnInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.ColumnInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.DatabaseMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.DatabaseMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.IColumnInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.IColumnInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Queries-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Queries-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Reader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Reader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Reader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.SequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.SequenceGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.DapperSqlDateOnlyTypeHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.DapperSqlDateOnlyTypeHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.DataServiceBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.DataServiceBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.DatabaseMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.DatabaseMapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.ReportService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.ReportService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.SqlBuilders.FilterSqlBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.SqlBuilders.FilterSqlBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.SqlBuilders.SqlBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.SqlBuilders.SqlBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.SqlBuilders.TableSqlBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.SqlBuilders.TableSqlBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.SqlBuilders.TableSqlBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.SqlBuilders.TableSqlBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.SqlBuilders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.SqlBuilders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.SqlTimeOnlyTypeHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.SqlTimeOnlyTypeHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.AndOr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.AndOr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ColumnInfoAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ColumnInfoAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ConnectedExpression-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ConnectedExpression-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ConnectedExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ConnectedExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.DataChange-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.DataChange-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.DataChangeComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.DataChangeComparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.DataChangeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.DataChangeFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.DataChangeKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.DataChangeKind.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.DataServiceUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.DataServiceUnitOfWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.Filter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.Filter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.FilterExpression-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.FilterExpression-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.FilterExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.FilterExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.FilterSegment-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.FilterSegment-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.FilterSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.FilterSegment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ICustomQueries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ICustomQueries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ICustomReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ICustomReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IDataChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IDataChange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IDataService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IDataService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IDatabaseMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IDatabaseMap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IDatabaseMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IDatabaseMapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IQueries-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IQueries-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IReader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IReaderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IReaderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IReportService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IReportService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ISaveStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ISaveStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ISequenceGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ISequenceGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ITableInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ITableInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ITrackChanges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ITrackChanges.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.IUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.IUnitOfWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.NameReaderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.NameReaderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.Operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.Operator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.OrderBy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.OrderBy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.OrderByExpression-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.OrderByExpression-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.OrderByExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.OrderByExpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.OrderDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.OrderDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.Pager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.Pager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ParameterValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ParameterValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ParameterValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ReportService.ReportColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ReportService.ReportColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ReportService.ReportDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ReportService.ReportDefinition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ReportService.ReportParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ReportService.ReportParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ReportService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ReportService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.Response-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.Response-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.Response.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.Response.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.ResponseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.ResponseExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.SaveResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.SaveResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.SaveResponseBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.SaveResponseBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.SaveResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.SaveResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.TableInfoAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.TableInfoAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.UnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.UnitOfWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.SimpleSaveStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.SimpleSaveStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.TableInfo-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.TableInfo-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccessTests.BillingClientTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccessTests.BillingClientTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccessTests.DataChangeComparerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccessTests.DataChangeComparerTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccessTests.TableSqlBuilderTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccessTests.TableSqlBuilderTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DataAccessTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DataAccessTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseMigrator.AppliedMigrationScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseMigrator.AppliedMigrationScript.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseMigrator.IMigrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseMigrator.IMigrator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseMigrator.MigrationScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseMigrator.MigrationScript.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseMigrator.Migrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseMigrator.Migrator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DatabaseMigrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DatabaseMigrator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EndpointMapper.EndpointMapperBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EndpointMapper.EndpointMapperBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EndpointMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EndpointMapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FakeBillingDataTests.FakeBillingReaderTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FakeBillingDataTests.FakeBillingReaderTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FakeBillingDataTests.FakeWriterTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FakeBillingDataTests.FakeWriterTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FakeBillingDataTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FakeBillingDataTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.OrderExpressionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.OrderExpressionTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.SampleData.TestObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.SampleData.TestObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.SampleData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.SampleData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ViewModelTests.ClaimsAuthenticationTests.FakeBillingDataService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ViewModelTests.ClaimsAuthenticationTests.FakeBillingDataService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ViewModelTests.ClaimsAuthenticationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ViewModelTests.ClaimsAuthenticationTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ViewModelTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ViewModelTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/300.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/300.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
