@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class EnumerationInfo | CumulusRCM ">
       
-      
+      <meta name="description" content="Provides a way to have a list of  with functionality to add and check for items.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/BaseLib/new/Documentation/apiSpec/new?filename=BaseLib_EnumerationInfo.md&amp;value=---%0Auid%3A%20BaseLib.EnumerationInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="BaseLib_EnumerationInfo" data-uid="BaseLib.EnumerationInfo" class="text-break">
-Class EnumerationInfo  
+Class EnumerationInfo  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/Enumeration.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class EnumerationInfo
   <dl><dt>Assembly</dt><dd>BaseLib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Provides a way to have a list of <a class="xref" href="BaseLib.Enumeration.html">Enumeration Classes</a> with functionality to add and check for items.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -196,7 +197,7 @@ Class EnumerationInfo
 
   <h3 id="BaseLib_EnumerationInfo_DefaultValue" data-uid="BaseLib.EnumerationInfo.DefaultValue">
   DefaultValue
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/Enumeration.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -231,10 +232,12 @@ Class EnumerationInfo
 
   <h3 id="BaseLib_EnumerationInfo_AddEnumValue_BaseLib_Enumeration_System_Type_" data-uid="BaseLib.EnumerationInfo.AddEnumValue(BaseLib.Enumeration,System.Type)">
   AddEnumValue(Enumeration, Type)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/Enumeration.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds the provided Enumeration to EnumerationInfo if the item is not present already.</p>
+<p>See also <a class="xref" href="BaseLib.EnumerationInfo.html#BaseLib_EnumerationInfo_Contains_BaseLib_Enumeration_">Contains(Enumeration)</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -244,9 +247,11 @@ Class EnumerationInfo
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>enumItem</code> <a class="xref" href="BaseLib.Enumeration.html">Enumeration</a></dt>
-    <dd></dd>
+    <dd><p>The enum item.</p>
+</dd>
     <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd></dd>
+    <dd><p>The type.</p>
+</dd>
   </dl>
 
 
@@ -257,6 +262,12 @@ Class EnumerationInfo
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.invalidenumargumentexception">InvalidEnumArgumentException</a></dt>
+    <dd><p>There was an attempt to add an Enumeration that was already present in the EnumerationInfo</p>
+</dd>
+  </dl>
 
 
 
@@ -264,10 +275,13 @@ Class EnumerationInfo
 
   <h3 id="BaseLib_EnumerationInfo_Contains_BaseLib_Enumeration_" data-uid="BaseLib.EnumerationInfo.Contains(BaseLib.Enumeration)">
   Contains(Enumeration)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/Enumeration.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>
+Determines if this EnumerationInfo contains an certain Enumeration.
+</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -277,13 +291,15 @@ Class EnumerationInfo
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>enumItem</code> <a class="xref" href="BaseLib.Enumeration.html">Enumeration</a></dt>
-    <dd></dd>
+    <dd><p>The Enumeration to check for in the EnumerationInfo</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p><code>true</code> if any contained Enumeration matches the provided Enumeration in DisplayName OR Value Or Code; otherwise, <code>false</code>.</p>
+</dd>
   </dl>
 
 
@@ -300,7 +316,7 @@ Class EnumerationInfo
 
   <h3 id="BaseLib_EnumerationInfo_GetValues" data-uid="BaseLib.EnumerationInfo.GetValues">
   GetValues()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/Enumeration.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -331,6 +347,7 @@ Class EnumerationInfo
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/Enumeration.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 

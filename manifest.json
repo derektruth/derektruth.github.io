@@ -3697,6 +3697,16 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/cumulus.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/cumulus.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {

@@ -307,6 +307,19 @@ references:
   isSpec: "True"
   fullName: BaseLib.DbConnectionManager.CloseAllConnections
   nameWithType: DbConnectionManager.CloseAllConnections
+- uid: BaseLib.DbConnectionManager.ConnectionCount
+  name: ConnectionCount
+  href: api/BaseLib.DbConnectionManager.html#BaseLib_DbConnectionManager_ConnectionCount
+  commentId: P:BaseLib.DbConnectionManager.ConnectionCount
+  fullName: BaseLib.DbConnectionManager.ConnectionCount
+  nameWithType: DbConnectionManager.ConnectionCount
+- uid: BaseLib.DbConnectionManager.ConnectionCount*
+  name: ConnectionCount
+  href: api/BaseLib.DbConnectionManager.html#BaseLib_DbConnectionManager_ConnectionCount_
+  commentId: Overload:BaseLib.DbConnectionManager.ConnectionCount
+  isSpec: "True"
+  fullName: BaseLib.DbConnectionManager.ConnectionCount
+  nameWithType: DbConnectionManager.ConnectionCount
 - uid: BaseLib.DbConnectionManager.CreateConnection(System.String)
   name: CreateConnection(string)
   href: api/BaseLib.DbConnectionManager.html#BaseLib_DbConnectionManager_CreateConnection_System_String_
@@ -1119,6 +1132,22 @@ references:
   commentId: T:BaseLib.TypeHelper
   fullName: BaseLib.TypeHelper
   nameWithType: TypeHelper
+- uid: BaseLib.TypeHelper.DynamicToT*
+  name: DynamicToT
+  href: api/BaseLib.TypeHelper.html#BaseLib_TypeHelper_DynamicToT_
+  commentId: Overload:BaseLib.TypeHelper.DynamicToT
+  isSpec: "True"
+  fullName: BaseLib.TypeHelper.DynamicToT
+  nameWithType: TypeHelper.DynamicToT
+- uid: BaseLib.TypeHelper.DynamicToT``1(System.Object)
+  name: DynamicToT<T>(dynamic)
+  href: api/BaseLib.TypeHelper.html#BaseLib_TypeHelper_DynamicToT__1_System_Object_
+  commentId: M:BaseLib.TypeHelper.DynamicToT``1(System.Object)
+  name.vb: DynamicToT(Of T)(Object)
+  fullName: BaseLib.TypeHelper.DynamicToT<T>(dynamic)
+  fullName.vb: BaseLib.TypeHelper.DynamicToT(Of T)(Object)
+  nameWithType: TypeHelper.DynamicToT<T>(dynamic)
+  nameWithType.vb: TypeHelper.DynamicToT(Of T)(Object)
 - uid: BaseLib.TypeHelper.IsDate(System.Type)
   name: IsDate(Type?)
   href: api/BaseLib.TypeHelper.html#BaseLib_TypeHelper_IsDate_System_Type_
