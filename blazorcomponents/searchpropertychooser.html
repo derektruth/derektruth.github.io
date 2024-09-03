@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace BaseLib | CumulusRCM </title>
+      <title>Search Property Chooser | CumulusRCM </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace BaseLib | CumulusRCM ">
+      <meta name="title" content="Search Property Chooser | CumulusRCM ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/searchpropertychooser.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -39,7 +39,7 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
@@ -84,86 +84,22 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BaseLib">
+        <article data-uid="">
+<h1 id="search-property-chooser">Search Property Chooser</h1>
 
-  <h1 id="BaseLib" data-uid="BaseLib" class="text-break">Namespace BaseLib</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.DateTimeExtensions.html">DateTimeExtensions</a></dt>
-      <dd><p>Contains extension methods to convert <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a> to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a> and other date-related operations.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.DbConnectionManager.html">DbConnectionManager</a></dt>
-      <dd><p>Keeps a list of  and has methods to control opening and closing connections to the database.
-Uses <a href="https://github.com/App-vNext/Polly">Polly</a> for resilience/retry handling.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.EnumerableExtensions.html">EnumerableExtensions</a></dt>
-      <dd><p>Contains extension methods to convert single items in collections containing the item.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.Enumeration.html">Enumeration</a></dt>
-      <dd><p>This is an "Enumeration Class" as described in <a href="https://lostechies.com/jimmybogard/2008/08/12/enumeration-classes/">this article</a>.</p>
-<p>See also <a class="xref" href="BaseLib.EnumerationInfo.html">EnumerationInfo</a>.</p>
-<div class="NOTE"><h5>note</h5><p>Enumeration classes are a replacement for common Enums that allow for more flexibility and a better way to have custom data associated to each enumeration. </p></div>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.EnumerationInfo.html">EnumerationInfo</a></dt>
-      <dd><p>Provides a way to have a list of <a class="xref" href="BaseLib.Enumeration.html">Enumeration Classes</a> with functionality to add and check for items.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.EnumerationJsonConverter-1.html">EnumerationJsonConverter&lt;T&gt;</a></dt>
-      <dd><p>Provides a way to serialize &quot;Enumeration Classes&quot; like <a class="xref" href="BaseLib.Enumeration.html">Enumeration</a></p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.FormatHelpers.html">FormatHelpers</a></dt>
-      <dd><p>Extension methods for formatting dates in different types of string formats.
-Common formats include &quot;yyyyMMdd&quot;, &quot;yyMMdd&quot; and &quot;hhmm&quot;.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.Hash.html">Hash</a></dt>
-      <dd><p>Provides static methods for generating hash values using various hashing algorithms.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.StringExtensions.html">StringExtensions</a></dt>
-      <dd><p>Extension methods for formatting and manipulating strings.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.TypeHelper.html">TypeHelper</a></dt>
-      <dd><p>Provides utility methods for working with types, particularly for identifying numeric and date types,
-checking for null or zero values, and converting dynamic objects to strongly typed instances.</p>
-</dd>
-    </dl>
-    <h3 id="interfaces">
-Interfaces
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="BaseLib.IDbConnectionManager.html">IDbConnectionManager</a></dt>
-      <dd><p>Interface that defines both a explicit way of opening a connection and a way to close all the connections.</p>
-</dd>
-    </dl>
-
+<h3 id="viewmodel-">ViewModel: <a class="xref" href="../api/Billing.ViewModels.ReactiveFilterExpression.html">ReactiveFilterExpression</a></h3>
+<hr>
+<p>This Blazor component creates a dropdown menu where users can select a property from a list of <a class="xref" href="../api/Billing.ViewModels.SelectableProperty.html">SelectableProperty</a> objects.
+The list can be filtered by the optional <strong>IncludePropertyNames</strong> parameter, if this array contains any string, only properties with the name present in the array are displayed.</p>
+<p>UI updates are handled by <a href="https://www.reactiveui.net/">ReactiveUI</a>.</p>
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/searchpropertychooser.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
 
       </div>
 

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TypeHelper | CumulusRCM ">
       
-      
+      <meta name="description" content="Provides utility methods for working with types, particularly for identifying numeric and date types, checking for null or zero values, and converting dynamic objects to strongly typed instances.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="BaseLib_TypeHelper" data-uid="BaseLib.TypeHelper" class="text-break">
-Class TypeHelper  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class TypeHelper  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,9 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>BaseLib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Provides utility methods for working with types, particularly for identifying numeric and date types,
+checking for null or zero values, and converting dynamic objects to strongly typed instances.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -156,10 +158,11 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BaseLib_TypeHelper_DynamicToT__1_System_Object_" data-uid="BaseLib.TypeHelper.DynamicToT``1(System.Object)">
   DynamicToT&lt;T&gt;(dynamic)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Converts a dynamic object to a strongly typed instance of the specified type <code class="typeparamref">T</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -175,7 +178,8 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">T</span></dt>
-    <dd></dd>
+    <dd><p>An instance of type <code class="typeparamref">T</code> with properties set based on the values from the dynamic object.</p>
+</dd>
   </dl>
 
   <h4 class="section">Type Parameters</h4>
@@ -197,10 +201,11 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BaseLib_TypeHelper_IsDate_System_Type_" data-uid="BaseLib.TypeHelper.IsDate(System.Type)">
   IsDate(Type?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines whether the specified <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> is a date-related type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -216,7 +221,8 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p><code>true</code> if the specified <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> is a date-related type; otherwise, <code>false</code>.</p>
+</dd>
   </dl>
 
 
@@ -233,10 +239,11 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BaseLib_TypeHelper_IsNullOrZero__1___0_" data-uid="BaseLib.TypeHelper.IsNullOrZero``1(``0)">
   IsNullOrZero&lt;T&gt;(T?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks whether the specified instance is either <code>null</code> or a numeric value equal to zero.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -252,7 +259,8 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p><code>true</code> if the instance is <code>null</code> or a numeric value equal to zero; otherwise, <code>false</code>.</p>
+</dd>
   </dl>
 
   <h4 class="section">Type Parameters</h4>
@@ -274,10 +282,11 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BaseLib_TypeHelper_IsNumeric_System_Type_" data-uid="BaseLib.TypeHelper.IsNumeric(System.Type)">
   IsNumeric(Type?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines whether the specified <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> is a numeric type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -293,7 +302,8 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p><code>true</code> if the specified <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> is a numeric type; otherwise, <code>false</code>.</p>
+</dd>
   </dl>
 
 
@@ -310,7 +320,7 @@ Class TypeHelper  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Cumulus-RCM/BaseLib/blob/Documentation/TypeHelper.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 

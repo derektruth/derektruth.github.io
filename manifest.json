@@ -3655,6 +3655,49 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/filterexpression.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/filterexpression.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/searchoperatorchooser.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/searchoperatorchooser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/searchpropertychooser.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/searchpropertychooser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "blazorcomponents/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/toc.html"
+        },
+        ".json": {
+          "relative_path": "blazorcomponents/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {
