@@ -1816,18 +1816,58 @@
   },
   "blazorcomponents/filterexpression.html": {
     "href": "blazorcomponents/filterexpression.html",
-    "title": "Filter Expression | CumulusRCM",
-    "keywords": "Filter Expression ViewModel: ReactiveFilterExpression This Blazor component is designed to create a search filter UI that adapts based on the type of data being searched. It uses the components SearchPropertyChooser and SearchOperatorChooser, that allow users to choose a property to search on and select an operator (like equals, contains, etc.). The component will also display either a date picker (if SearchTermType is a date type) or a text field, adapting its UI based on the data type of the search term. Finally, It utilizes ReactiveUI to manage state and subscriptions, making the UI responsive to changes in the data model."
+    "title": "| CumulusRCM",
+    "keywords": "FilterExpression ViewModel: ReactiveFilterExpression This Blazor component is designed to create a search filter UI that adapts based on the type of data being searched. It uses the components SearchPropertyChooser and SearchOperatorChooser, that allow users to choose a property to search on and select an operator (like equals, contains, etc.). The component will also display either a date picker (if SearchTermType is a date type) or a text field, adapting its UI based on the data type of the search term. Finally, It utilizes ReactiveUI to manage state and subscriptions, making the UI responsive to changes in the data model."
+  },
+  "blazorcomponents/patientaddressedit.html": {
+    "href": "blazorcomponents/patientaddressedit.html",
+    "title": "| CumulusRCM",
+    "keywords": "PatientAddressEdit ViewModel: PatientAddressViewModel This Blazor component is a small modal of PatientAddresses that allows new addresses to be added to the current patient. See also: State to check how different states are handled Enumeration to check how enurations work in the code"
+  },
+  "blazorcomponents/patientaddresses.html": {
+    "href": "blazorcomponents/patientaddresses.html",
+    "title": "| CumulusRCM",
+    "keywords": "PatientAddresses ViewModel: PatientAddressesViewModel This Blazor component shows a list of addresses associated with a patient in a grid with the columns \"Kind\" and \"Address\". Note The shown address is the following string concatenation: $\"{Street1} {Street2}{City},{State.Abbreviation} {ZipCode}\"; When clicking the \"Add Address\" link, another modal is shown alowing new phone numbers to be added (PatientAddressEdit)."
+  },
+  "blazorcomponents/patientedit.html": {
+    "href": "blazorcomponents/patientedit.html",
+    "title": "| CumulusRCM",
+    "keywords": "PatientEdit ViewModel: PatientViewModel Important Don't get PatientViewModel and PatientsViewModel mixed-up! This Blazor component is the main \"Patient Add/Edit\" functionality of the Patient component. Its body is composed of three input fields: First Name, Last Name and Birth Date followed by the following components: Clicking OK at the end of the modal will commit the changes to the database."
+  },
+  "blazorcomponents/patientphoneedit.html": {
+    "href": "blazorcomponents/patientphoneedit.html",
+    "title": "| CumulusRCM",
+    "keywords": "PatientPhones ViewModel: PatientPhoneViewModel This Blazor component is a small modal of PatientPhones that allows new phone numbers to be added to the current patient."
+  },
+  "blazorcomponents/patientphones.html": {
+    "href": "blazorcomponents/patientphones.html",
+    "title": "| CumulusRCM",
+    "keywords": "PatientPhones ViewModel: PatientPhonesViewModel This Blazor component shows a list of phone numbers associated with a patient in a grid with the columns \"Kind\" and \"Phone Number\". When clicking the \"Add phone\" link, another modal is shown alowing new phone numbers to be added (PatientPhoneEdit)."
+  },
+  "blazorcomponents/patientpolicies.html": {
+    "href": "blazorcomponents/patientpolicies.html",
+    "title": "| CumulusRCM",
+    "keywords": "PatientPolicies ViewModel: PatientPoliciesViewModel This Blazor component shows a list of policies (i.e. insurance) associated with a patient in a grid with the columns \"Order\", \"Company\", \"Policy #\", \"Activated\" and \"Inactivated\". When clicking the \"Add Policy\" link, another modal is shown alowing new phone numbers to be added (PatientPolicyEdit)."
+  },
+  "blazorcomponents/patientpolicyedit.html": {
+    "href": "blazorcomponents/patientpolicyedit.html",
+    "title": "| CumulusRCM",
+    "keywords": "PatientPolicyEdit ViewModel: PolicyViewModel This Blazor component is a small modal of PatientPolicies that allows new policies to be added to the current patient. See also: InsuranceCompany to check how Insurance Companies are handled"
+  },
+  "blazorcomponents/patients.html": {
+    "href": "blazorcomponents/patients.html",
+    "title": "| CumulusRCM",
+    "keywords": "Patients ViewModel: PatientsViewModel This Blazor component presents a toolbar with the Filter Expression component, allowing the user to search the patients list with a wide range of filters. The selected patients are displayed in a paginated grid, listing the patient's last name, first name and birthday date. Finally, the component has an \"Add Patient\" button, allowing the creation of a new patient in a modal window (Patient Edit). Note In this component the viewmodel code actually supplies the ReactiveFilterExpression<T> with the Patient type, allowing the SearchPropertyChooser to be correctly initialized with the properties of the type."
   },
   "blazorcomponents/searchoperatorchooser.html": {
     "href": "blazorcomponents/searchoperatorchooser.html",
-    "title": "Search Operator Chooser | CumulusRCM",
-    "keywords": "Search Operator Chooser ViewModel: ReactiveFilterExpression This Blazor component creates a dropdown menu where users can select one operator from a list. Those operators are values of Operator separated in two lists inside the ViewModel: private static readonly Operator[] stringOperators = [ Operator.StartsWith, Operator.EndsWith, Operator.Contains, Operator.Equal, Operator.NotEqual, Operator.GreaterThan, Operator.GreaterThanOrEqual, Operator.LessThan, Operator.LessThanOrEqual]; private static readonly Operator[] numericOperators = [ Operator.Equal, Operator.GreaterThan, Operator.GreaterThanOrEqual, Operator.IsNull, Operator.LessThan, Operator.LessThanOrEqual, Operator.NotEqual]; On initialization, the component determines if the search term is numeric or a string and fills the dropdown with the appropriate values. UI updates are handled by ReactiveUI."
+    "title": "| CumulusRCM",
+    "keywords": "SearchOperatorChooser ViewModel: ReactiveFilterExpression This Blazor component creates a dropdown menu where users can select one operator from a list. Those operators are values of Operator separated in two lists inside the ViewModel: private static readonly Operator[] stringOperators = [ Operator.StartsWith, Operator.EndsWith, Operator.Contains, Operator.Equal, Operator.NotEqual, Operator.GreaterThan, Operator.GreaterThanOrEqual, Operator.LessThan, Operator.LessThanOrEqual]; private static readonly Operator[] numericOperators = [ Operator.Equal, Operator.GreaterThan, Operator.GreaterThanOrEqual, Operator.IsNull, Operator.LessThan, Operator.LessThanOrEqual, Operator.NotEqual]; On initialization, the component determines if the search term is numeric or a string and fills the dropdown with the appropriate values. UI updates are handled by ReactiveUI."
   },
   "blazorcomponents/searchpropertychooser.html": {
     "href": "blazorcomponents/searchpropertychooser.html",
-    "title": "Search Property Chooser | CumulusRCM",
-    "keywords": "Search Property Chooser ViewModel: ReactiveFilterExpression This Blazor component creates a dropdown menu where users can select a property from a list of SelectableProperty objects. The list can be filtered by the optional IncludePropertyNames parameter, if this array contains any string, only properties with the name present in the array are displayed. UI updates are handled by ReactiveUI."
+    "title": "| CumulusRCM",
+    "keywords": "SearchPropertyChooser ViewModel: ReactiveFilterExpression This Blazor component creates a dropdown menu where users can select a property from a list of SelectableProperty objects. The list can be filtered by the optional IncludePropertyNames parameter, if this array contains any string, only properties with the name present in the array are displayed. UI updates are handled by ReactiveUI."
   },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
@@ -1838,6 +1878,11 @@
     "href": "docs/introduction.html",
     "title": "Introduction | CumulusRCM",
     "keywords": "Introduction Cumulus RCM is spread in many repositories, the most important ones are: Baselib - The core of every library DataBaseMigrator - Migration using Sql Server to store scripts DataAccess - Deals with queries and database access HipaaServices - Houses the Blazor service, client and ViewModels."
+  },
+  "docs/patientsdiagram.html": {
+    "href": "docs/patientsdiagram.html",
+    "title": "| CumulusRCM",
+    "keywords": ""
   },
   "index.html": {
     "href": "index.html",

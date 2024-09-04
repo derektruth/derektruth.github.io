@@ -3665,6 +3665,86 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/patientaddressedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/patientaddressedit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/patientaddresses.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/patientaddresses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/patientedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/patientedit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/patientphoneedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/patientphoneedit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/patientphones.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/patientphones.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/patientpolicies.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/patientpolicies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/patientpolicyedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/patientpolicyedit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/patients.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/patients.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "blazorcomponents/searchoperatorchooser.md",
       "output": {
         ".html": {
@@ -3717,6 +3797,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "docs/patientsdiagram.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/patientsdiagram.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
@@ -3745,6 +3835,76 @@
       "output": {
         "resource": {
           "relative_path": "images/cumulus.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/patientaddresses.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/patientaddresses.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/patientedit.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/patientedit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/patienteditfull.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/patienteditfull.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/patientphones.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/patientphones.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/patientpolicies.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/patientpolicies.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/patients.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/patients.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/patientsdiagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/patientsdiagram.png"
         }
       },
       "version": ""

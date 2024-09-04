@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/searchoperatorchooser.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/patientaddresses.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,28 +85,24 @@
         </div>
 
         <article data-uid="">
-<h1 id="section"><a class="xref" href="../api/Billing.BlazorComponents.SearchOperatorChooser.html">SearchOperatorChooser</a></h1>
+<h1 id="section"><a class="xref" href="../api/Billing.BlazorComponents.PatientAddresses.html">PatientAddresses</a></h1>
 
-<h3 id="viewmodel-">ViewModel: <a class="xref" href="../api/Billing.ViewModels.ReactiveFilterExpression.html">ReactiveFilterExpression</a></h3>
+<h3 id="viewmodel-">ViewModel: <a class="xref" href="../api/Billing.ViewModels.PatientAddressesViewModel.html">PatientAddressesViewModel</a></h3>
 <hr>
-<p>This Blazor component creates a dropdown menu where users can select one operator from a list.</p>
-<p>Those operators are values of <a class="xref" href="../api/DataAccess.Shared.Operator.html">Operator</a> separated in two lists inside the ViewModel:</p>
-<pre><code>private static readonly Operator[] stringOperators = [
-        Operator.StartsWith, Operator.EndsWith, Operator.Contains, Operator.Equal,
-        Operator.NotEqual, Operator.GreaterThan, Operator.GreaterThanOrEqual, 
-        Operator.LessThan, Operator.LessThanOrEqual];
-
-private static readonly Operator[] numericOperators = [
-        Operator.Equal, Operator.GreaterThan, Operator.GreaterThanOrEqual, Operator.IsNull, Operator.LessThan,
-        Operator.LessThanOrEqual, Operator.NotEqual];
-</code></pre>
-<p>On initialization, the component determines if the search term is numeric or a string and fills the dropdown with the appropriate values.</p>
-<p>UI updates are handled by <a href="https://www.reactiveui.net/">ReactiveUI</a>.</p>
+<p><img src="../images/patientaddresses.png" alt="Patient Addresses"></p>
+<hr>
+<p>This Blazor component shows a list of addresses associated with a patient in a grid with the columns &quot;Kind&quot; and &quot;Address&quot;.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The shown address is the following string concatenation:<br>
+<code>$&quot;{Street1} {Street2}{City},{State.Abbreviation} {ZipCode}&quot;;</code></p>
+</div>
+<p>When clicking the &quot;Add Address&quot; link, another modal is shown alowing new phone numbers to be added (<a href="patientaddressedit.html">PatientAddressEdit</a>).</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/searchoperatorchooser.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/patientaddresses.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

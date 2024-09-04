@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/searchoperatorchooser.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/patientedit.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,28 +85,29 @@
         </div>
 
         <article data-uid="">
-<h1 id="section"><a class="xref" href="../api/Billing.BlazorComponents.SearchOperatorChooser.html">SearchOperatorChooser</a></h1>
+<h1 id="section"><a class="xref" href="../api/Billing.BlazorComponents.PatientEdit.html">PatientEdit</a></h1>
 
-<h3 id="viewmodel-">ViewModel: <a class="xref" href="../api/Billing.ViewModels.ReactiveFilterExpression.html">ReactiveFilterExpression</a></h3>
+<h3 id="viewmodel-">ViewModel: <a class="xref" href="../api/Billing.ViewModels.PatientViewModel.html">PatientViewModel</a></h3>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Don't get <a class="xref" href="../api/Billing.ViewModels.PatientViewModel.html">PatientViewModel</a> and <a class="xref" href="../api/Billing.ViewModels.PatientsViewModel.html">PatientsViewModel</a> mixed-up!</p>
+</div>
 <hr>
-<p>This Blazor component creates a dropdown menu where users can select one operator from a list.</p>
-<p>Those operators are values of <a class="xref" href="../api/DataAccess.Shared.Operator.html">Operator</a> separated in two lists inside the ViewModel:</p>
-<pre><code>private static readonly Operator[] stringOperators = [
-        Operator.StartsWith, Operator.EndsWith, Operator.Contains, Operator.Equal,
-        Operator.NotEqual, Operator.GreaterThan, Operator.GreaterThanOrEqual, 
-        Operator.LessThan, Operator.LessThanOrEqual];
-
-private static readonly Operator[] numericOperators = [
-        Operator.Equal, Operator.GreaterThan, Operator.GreaterThanOrEqual, Operator.IsNull, Operator.LessThan,
-        Operator.LessThanOrEqual, Operator.NotEqual];
-</code></pre>
-<p>On initialization, the component determines if the search term is numeric or a string and fills the dropdown with the appropriate values.</p>
-<p>UI updates are handled by <a href="https://www.reactiveui.net/">ReactiveUI</a>.</p>
+<p><img src="../images/patienteditfull.png" alt="Patient Edit"></p>
+<hr>
+<p>This Blazor component is the main &quot;Patient Add/Edit&quot; functionality of the <a href="patients.html">Patient component</a>.</p>
+<p>Its body is composed of three input fields: First Name, Last Name and Birth Date followed by the following components:</p>
+<ul>
+<li><img src="patientphones.html" alt="PatientPhones"></li>
+<li><img src="patientaddresses.html" alt="PatientAddresses"></li>
+<li><img src="patientpolicies.html" alt="PatientPolicies"></li>
+</ul>
+<p>Clicking <strong>OK</strong> at the end of the modal will commit the changes to the database.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/searchoperatorchooser.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/patientedit.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
