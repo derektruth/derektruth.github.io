@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/filterexpression.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/provideredit.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,19 +85,22 @@
         </div>
 
         <article data-uid="">
-<h1 id="section"><a class="xref" href="../api/Billing.BlazorComponents.FilterExpression.html">FilterExpression</a></h1>
+<h1 id="section"><a class="xref" href="../api/Billing.BlazorComponents.ProviderEdit.html">ProviderEdit</a></h1>
 
-<h3 id="viewmodel-">ViewModel: <a class="xref" href="../api/Billing.ViewModels.ReactiveFilterExpression.html">ReactiveFilterExpression</a></h3>
+<h3 id="viewmodel-">ViewModel: <a class="xref" href="../api/Billing.ViewModels.ProviderViewModel.html">ProviderViewModel</a></h3>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Don't get <a class="xref" href="../api/Billing.ViewModels.ProvidersViewModel.html">ProvidersViewModel</a> and <a class="xref" href="../api/Billing.ViewModels.ProviderViewModel.html">ProviderViewModel</a> mixed-up!</p>
+</div>
 <hr>
-<p>This Blazor component is designed to create a search filter UI that adapts based on the type of data being searched.</p>
-<p>It uses the components <a href="searchpropertychooser.html"><strong>SearchPropertyChooser</strong></a> and <a href="searchoperatorchooser.html"><strong>SearchOperatorChooser</strong></a>, that allow users to choose a property to search on and select an operator (like equals, contains, etc.).</p>
-<p>The component will also display either a date picker (if <a class="xref" href="../api/Billing.ViewModels.ReactiveFilterExpression.html#Billing_ViewModels_ReactiveFilterExpression_SearchTermType">SearchTermType</a> is a date type) or a text field, adapting its UI based on the data type of the search term.</p>
-<p>Finally, It utilizes <a href="https://www.reactiveui.net/">ReactiveUI</a> to manage state and subscriptions, making the UI responsive to changes in the data model.</p>
+<p>This Blazor component is the main &quot;Add/Edit&quot; functionality of the <a href="providers.html">Provider component</a>.</p>
+<p>Its body is composed of two input fields: First Name and Last Name.</p>
+<p>Clicking <strong>OK</strong> at the end of the modal will commit the changes to the database.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/filterexpression.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Cumulus-RCM/HipaaServices/blob/Documentation/docfx/blazorcomponents/provideredit.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

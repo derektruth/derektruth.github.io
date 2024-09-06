@@ -3655,6 +3655,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/facilities.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/facilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/facilityedit.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/facilityedit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "blazorcomponents/filterexpression.md",
       "output": {
         ".html": {
@@ -3739,6 +3759,26 @@
       "output": {
         ".html": {
           "relative_path": "blazorcomponents/patients.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/provideredit.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/provideredit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blazorcomponents/providers.md",
+      "output": {
+        ".html": {
+          "relative_path": "blazorcomponents/providers.html"
         }
       },
       "version": ""

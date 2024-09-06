@@ -101,7 +101,7 @@ Class Providers
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Providers : InjectableCollectionViewBase&lt;ProvidersViewModel, ProviderViewModel&gt;, IComponent, IHandleEvent, IHandleAfterRender, IViewFor&lt;ProvidersViewModel&gt;, IViewFor, IActivatableView, INotifyPropertyChanged, ICanActivate, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Providers : CollectionViewBase&lt;ProvidersViewModel, ProviderViewModel&gt;, IComponent, IHandleEvent, IHandleAfterRender, IViewFor&lt;ProvidersViewModel&gt;, IViewFor, IActivatableView, INotifyPropertyChanged, ICanActivate, IDisposable</code></pre>
   </div>
 
 
@@ -114,7 +114,6 @@ Class Providers
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase">ComponentBase</a></div>
       <div><span class="xref">ReactiveComponentBase</span>&lt;<a class="xref" href="Billing.ViewModels.ProvidersViewModel.html">ProvidersViewModel</a>&gt;</div>
       <div><a class="xref" href="Billing.BlazorComponents.CollectionViewBase-2.html">CollectionViewBase</a>&lt;<a class="xref" href="Billing.ViewModels.ProvidersViewModel.html">ProvidersViewModel</a>, <a class="xref" href="Billing.ViewModels.ProviderViewModel.html">ProviderViewModel</a>&gt;</div>
-      <div><a class="xref" href="Billing.BlazorComponents.InjectableCollectionViewBase-2.html">InjectableCollectionViewBase</a>&lt;<a class="xref" href="Billing.ViewModels.ProvidersViewModel.html">ProvidersViewModel</a>, <a class="xref" href="Billing.ViewModels.ProviderViewModel.html">ProviderViewModel</a>&gt;</div>
       <div><span class="xref">Providers</span></div>
     </dd>
   </dl>
@@ -139,16 +138,13 @@ Class Providers
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="Billing.BlazorComponents.InjectableCollectionViewBase-2.html#Billing_BlazorComponents_InjectableCollectionViewBase_2_InjectedViewModel">InjectableCollectionViewBase&lt;ProvidersViewModel, ProviderViewModel&gt;.InjectedViewModel</a>
-    </div>
-    <div>
-      <a class="xref" href="Billing.BlazorComponents.InjectableCollectionViewBase-2.html#Billing_BlazorComponents_InjectableCollectionViewBase_2_OnInitialized">InjectableCollectionViewBase&lt;ProvidersViewModel, ProviderViewModel&gt;.OnInitialized()</a>
-    </div>
-    <div>
       <a class="xref" href="Billing.BlazorComponents.CollectionViewBase-2.html#Billing_BlazorComponents_CollectionViewBase_2_ModalEditView">CollectionViewBase&lt;ProvidersViewModel, ProviderViewModel&gt;.ModalEditView</a>
     </div>
     <div>
       <a class="xref" href="Billing.BlazorComponents.CollectionViewBase-2.html#Billing_BlazorComponents_CollectionViewBase_2_ModalEditViewTitle">CollectionViewBase&lt;ProvidersViewModel, ProviderViewModel&gt;.ModalEditViewTitle</a>
+    </div>
+    <div>
+      <a class="xref" href="Billing.BlazorComponents.CollectionViewBase-2.html#Billing_BlazorComponents_CollectionViewBase_2_OnInitialized">CollectionViewBase&lt;ProvidersViewModel, ProviderViewModel&gt;.OnInitialized()</a>
     </div>
     <div>
       <a class="xref" href="Billing.BlazorComponents.CollectionViewBase-2.html#Billing_BlazorComponents_CollectionViewBase_2_edit__1_">CollectionViewBase&lt;ProvidersViewModel, ProviderViewModel&gt;.edit(ProviderViewModel)</a>
@@ -158,9 +154,6 @@ Class Providers
     </div>
     <div>
       <span class="xref">ReactiveComponentBase&lt;ProvidersViewModel&gt;.Dispose()</span>
-    </div>
-    <div>
-      <span class="xref">ReactiveComponentBase&lt;ProvidersViewModel&gt;.OnInitialized()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">ReactiveComponentBase&lt;ProvidersViewModel&gt;.OnAfterRender(bool)</a>
@@ -338,6 +331,38 @@ Class Providers
 
 
 
+  <a id="Billing_BlazorComponents_Providers_ProvidersViewModel_" data-uid="Billing.BlazorComponents.Providers.ProvidersViewModel*"></a>
+
+  <h3 id="Billing_BlazorComponents_Providers_ProvidersViewModel" data-uid="Billing.BlazorComponents.Providers.ProvidersViewModel">
+  ProvidersViewModel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Inject]
+public ProvidersViewModel ProvidersViewModel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Billing.ViewModels.ProvidersViewModel.html">ProvidersViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -362,6 +387,34 @@ Class Providers
     <dt><code>__builder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.rendering.rendertreebuilder">RenderTreeBuilder</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Billing_BlazorComponents_Providers_OnInitialized_" data-uid="Billing.BlazorComponents.Providers.OnInitialized*"></a>
+
+  <h3 id="Billing_BlazorComponents_Providers_OnInitialized" data-uid="Billing.BlazorComponents.Providers.OnInitialized">
+  OnInitialized()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Method invoked when the component is ready to start, having received its
+initial parameters from its parent in the render tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnInitialized()</code></pre>
+  </div>
+
 
 
 

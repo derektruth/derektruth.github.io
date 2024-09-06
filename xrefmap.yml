@@ -2156,6 +2156,19 @@ references:
   isSpec: "True"
   fullName: Billing.BlazorComponents.Facilities.BuildRenderTree
   nameWithType: Facilities.BuildRenderTree
+- uid: Billing.BlazorComponents.Facilities.FacilitiesViewModel
+  name: FacilitiesViewModel
+  href: api/Billing.BlazorComponents.Facilities.html#Billing_BlazorComponents_Facilities_FacilitiesViewModel
+  commentId: P:Billing.BlazorComponents.Facilities.FacilitiesViewModel
+  fullName: Billing.BlazorComponents.Facilities.FacilitiesViewModel
+  nameWithType: Facilities.FacilitiesViewModel
+- uid: Billing.BlazorComponents.Facilities.FacilitiesViewModel*
+  name: FacilitiesViewModel
+  href: api/Billing.BlazorComponents.Facilities.html#Billing_BlazorComponents_Facilities_FacilitiesViewModel_
+  commentId: Overload:Billing.BlazorComponents.Facilities.FacilitiesViewModel
+  isSpec: "True"
+  fullName: Billing.BlazorComponents.Facilities.FacilitiesViewModel
+  nameWithType: Facilities.FacilitiesViewModel
 - uid: Billing.BlazorComponents.Facilities.ModalEditView
   name: ModalEditView
   href: api/Billing.BlazorComponents.Facilities.html#Billing_BlazorComponents_Facilities_ModalEditView
@@ -2182,6 +2195,19 @@ references:
   isSpec: "True"
   fullName: Billing.BlazorComponents.Facilities.ModalEditViewTitle
   nameWithType: Facilities.ModalEditViewTitle
+- uid: Billing.BlazorComponents.Facilities.OnInitialized
+  name: OnInitialized()
+  href: api/Billing.BlazorComponents.Facilities.html#Billing_BlazorComponents_Facilities_OnInitialized
+  commentId: M:Billing.BlazorComponents.Facilities.OnInitialized
+  fullName: Billing.BlazorComponents.Facilities.OnInitialized()
+  nameWithType: Facilities.OnInitialized()
+- uid: Billing.BlazorComponents.Facilities.OnInitialized*
+  name: OnInitialized
+  href: api/Billing.BlazorComponents.Facilities.html#Billing_BlazorComponents_Facilities_OnInitialized_
+  commentId: Overload:Billing.BlazorComponents.Facilities.OnInitialized
+  isSpec: "True"
+  fullName: Billing.BlazorComponents.Facilities.OnInitialized
+  nameWithType: Facilities.OnInitialized
 - uid: Billing.BlazorComponents.FacilitiesPage
   name: FacilitiesPage
   href: api/Billing.BlazorComponents.FacilitiesPage.html
@@ -3485,6 +3511,19 @@ references:
   isSpec: "True"
   fullName: Billing.BlazorComponents.Providers.ModalEditViewTitle
   nameWithType: Providers.ModalEditViewTitle
+- uid: Billing.BlazorComponents.Providers.OnInitialized
+  name: OnInitialized()
+  href: api/Billing.BlazorComponents.Providers.html#Billing_BlazorComponents_Providers_OnInitialized
+  commentId: M:Billing.BlazorComponents.Providers.OnInitialized
+  fullName: Billing.BlazorComponents.Providers.OnInitialized()
+  nameWithType: Providers.OnInitialized()
+- uid: Billing.BlazorComponents.Providers.OnInitialized*
+  name: OnInitialized
+  href: api/Billing.BlazorComponents.Providers.html#Billing_BlazorComponents_Providers_OnInitialized_
+  commentId: Overload:Billing.BlazorComponents.Providers.OnInitialized
+  isSpec: "True"
+  fullName: Billing.BlazorComponents.Providers.OnInitialized
+  nameWithType: Providers.OnInitialized
 - uid: Billing.BlazorComponents.Providers.OnParametersSet
   name: OnParametersSet()
   href: api/Billing.BlazorComponents.Providers.html#Billing_BlazorComponents_Providers_OnParametersSet
@@ -3498,6 +3537,19 @@ references:
   isSpec: "True"
   fullName: Billing.BlazorComponents.Providers.OnParametersSet
   nameWithType: Providers.OnParametersSet
+- uid: Billing.BlazorComponents.Providers.ProvidersViewModel
+  name: ProvidersViewModel
+  href: api/Billing.BlazorComponents.Providers.html#Billing_BlazorComponents_Providers_ProvidersViewModel
+  commentId: P:Billing.BlazorComponents.Providers.ProvidersViewModel
+  fullName: Billing.BlazorComponents.Providers.ProvidersViewModel
+  nameWithType: Providers.ProvidersViewModel
+- uid: Billing.BlazorComponents.Providers.ProvidersViewModel*
+  name: ProvidersViewModel
+  href: api/Billing.BlazorComponents.Providers.html#Billing_BlazorComponents_Providers_ProvidersViewModel_
+  commentId: Overload:Billing.BlazorComponents.Providers.ProvidersViewModel
+  isSpec: "True"
+  fullName: Billing.BlazorComponents.Providers.ProvidersViewModel
+  nameWithType: Providers.ProvidersViewModel
 - uid: Billing.BlazorComponents.ProvidersPage
   name: ProvidersPage
   href: api/Billing.BlazorComponents.ProvidersPage.html
